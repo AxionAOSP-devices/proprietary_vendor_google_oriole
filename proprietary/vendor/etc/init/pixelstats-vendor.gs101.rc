@@ -8,3 +8,4 @@ service vendor.pixelstats_vendor /vendor/bin/pixelstats-vendor
     user system
     group system context_hub readproc
     disabled
+    task_profiles ServiceCapacityLow
