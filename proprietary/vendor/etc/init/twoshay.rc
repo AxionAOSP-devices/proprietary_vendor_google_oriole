@@ -3,3 +3,4 @@ service twoshay /vendor/bin/twoshay -s
     user root
     group input
     disabled
+    task_profiles ServiceCapacityLow
