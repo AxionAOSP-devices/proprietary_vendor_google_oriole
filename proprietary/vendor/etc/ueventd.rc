@@ -1,4 +1,17 @@
 /dev/mali0                0666   system     system
+/dev/cpu_dma_latency 0664 system system
+/sys/devices/system/cpu/cpu0/cpufreq/sched_pixel up_rate_limit_us 0664 system system
+/sys/devices/system/cpu/cpu4/cpufreq/sched_pixel up_rate_limit_us 0664 system system
+/sys/devices/system/cpu/cpu6/cpufreq/sched_pixel up_rate_limit_us 0664 system system
+/sys/devices/system/cpu/cpu0/cpufreq/sched_pixel down_rate_limit_us 0664 system system
+/sys/devices/system/cpu/cpu4/cpufreq/sched_pixel down_rate_limit_us 0664 system system
+/sys/devices/system/cpu/cpu6/cpufreq/sched_pixel down_rate_limit_us 0664 system system
+/sys/devices/platform/17000010.devfreq_mif/devfreq/17000010.devfreq_mif min_freq 0664 system system
+/sys/devices/platform/1c500000.mali hint_min_freq 0664 system system
+/sys/devices/platform/1c500000.mali/devfreq/1c500000.mali min_freq 0664 system system
+/sys/devices/platform/1c500000.mali/devfreq/1c500000.mali max_freq 0664 system system
+/sys/devices/platform/17000020.devfreq_int/devfreq/17000020.devfreq_int min_freq 0664 system system
+/sys/devices/platform/1c300000.drmdecon early_wakeup 0664 system system
 /dev/ion                  0666   system     system
 /dev/ump                  0666   system     graphics
 /dev/exynos-mem           0660   system     graphics
