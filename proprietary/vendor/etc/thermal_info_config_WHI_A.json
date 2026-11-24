@@ -122,10 +122,10 @@
             "Multiplier":0.001
         },
         {
-            "Name":"VIRTUAL-SKIN",
-            "Type":"SKIN",
+            "Name":"VIRTUAL-SKIN-MODEL",
+            "Type":"UNKNOWN",
+            "Hidden":true,
             "VirtualSensor":true,
-            "TriggerSensor":"neutral_therm",
             "Formula":"MAXIMUM",
             "Combination":[
                 "neutral_therm",
@@ -137,6 +137,27 @@
                 "1.0",
                 "1.0"
             ],
+            "Multiplier":0.001
+        },
+        {
+            "Name":"VIRTUAL-SKIN-GUARD",
+            "Type":"UNKNOWN",
+            "Hidden":true,
+            "VirtualSensor":true,
+            "Formula":"WEIGHTED_AVG",
+            "Combination":["VIRTUAL-SKIN-MODEL"],
+            "Coefficient":[1.0],
+            "Offset":-6000,
+            "Multiplier":0.001
+        },
+        {
+            "Name":"VIRTUAL-SKIN",
+            "Type":"SKIN",
+            "VirtualSensor":true,
+            "TriggerSensor":"neutral_therm",
+            "Formula":"MAXIMUM",
+            "Combination":["battery", "VIRTUAL-SKIN-GUARD"],
+            "Coefficient":[1.0, 1.0],
             "HotThreshold":[
                 "NAN",
                 "45.0",
