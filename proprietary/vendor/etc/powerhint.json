@@ -51,9 +51,10 @@
       "Path": "/sys/devices/system/cpu/cpu0/cpufreq/sched_pixel/down_rate_limit_us",
       "Values": [
         "5000",
+        "4000",
         "500"
       ],
-      "DefaultIndex": 0,
+      "DefaultIndex": 1,
       "ResetOnInit": true
     },
     {
@@ -88,9 +89,10 @@
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/sched_pixel/down_rate_limit_us",
       "Values": [
         "20000",
+        "4000",
         "3000"
       ],
-      "DefaultIndex": 0,
+      "DefaultIndex": 1,
       "ResetOnInit": true
     },
     {
@@ -125,9 +127,10 @@
       "Path": "/sys/devices/system/cpu/cpu6/cpufreq/sched_pixel/down_rate_limit_us",
       "Values": [
         "20000",
+        "4000",
         "3000"
       ],
-      "DefaultIndex": 0,
+      "DefaultIndex": 1,
       "ResetOnInit": true
     },
     {
@@ -168,7 +171,7 @@
         "1280",
         "1100"
       ],
-      "DefaultIndex": 0,
+      "DefaultIndex": 1,
       "ResetOnInit": true
     },
     {
@@ -824,6 +827,12 @@
       "Value": "9999999"
     },
     {
+      "PowerHint": "LAUNCH_EXTEND",
+      "Node": "CPUDVFSHeadroom",
+      "Duration": 2000,
+      "Value": "1280"
+    },
+    {
       "PowerHint": "DISPLAY_CHANGE",
       "Node": "ReducePreferIdle",
       "Duration": 5000,
@@ -882,6 +891,12 @@
       "Node": "NPITaskPacking",
       "Duration": 5000,
       "Value": "0"
+    },
+    {
+      "PowerHint": "DISPLAY_CHANGE",
+      "Node": "CPUDVFSHeadroom",
+      "Duration": 5000,
+      "Value": "1280"
     },
     {
       "PowerHint": "CPU_LOAD_RESET",
@@ -1346,6 +1361,12 @@
       "Value": "0"
     },
     {
+      "PowerHint": "CAMERA_STREAMING_STANDARD",
+      "Node": "CPUDVFSHeadroom",
+      "Duration": 0,
+      "Value": "1280"
+    },
+    {
       "PowerHint": "CAMERA_STREAMING_LOW",
       "Node": "CPUUtilThreshold",
       "Duration": 0,
@@ -1410,6 +1431,12 @@
       "Node": "NPITaskPacking",
       "Duration": 0,
       "Value": "0"
+    },
+    {
+      "PowerHint": "CAMERA_STREAMING_LOW",
+      "Node": "CPUDVFSHeadroom",
+      "Duration": 0,
+      "Value": "1280"
     },
     {
       "PowerHint": "CAMERA_VIDEO_RECORDING",
