@@ -380,6 +380,210 @@
       "Node": "GPUMinFreq",
       "Duration": 0,
       "Value": "455000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUBigClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1106000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUMidClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPUMidClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPULittleClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "455000"
+    },
+    {
+      "PowerHint": "APP_START",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "410"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1106000"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "CPUMidClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "302000"
+    },
+    {
+      "PowerHint": "UI_ANIMATION",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "410"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUBigClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1106000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUMidClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPUMidClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPULittleClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "455000"
+    },
+    {
+      "PowerHint": "SYSTEM_UI",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "410"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1106000"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "CPUMidClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "FLING",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "308"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPUBigClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1106000"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPUMidClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPUMidClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPULittleClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1197000"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "410"
+    },
+    {
+      "PowerHint": "CPU_BENCHMARK",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "302000"
+    },
+    {
+      "PowerHint": "GPU_BENCHMARK",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "670000"
+    },
+    {
+      "PowerHint": "GPU_BENCHMARK",
+      "Node": "CPUBigClusterMaxFreq",
+      "Duration": 0,
+      "Value": "1999000"
+    },
+    {
+      "PowerHint": "GPU_BENCHMARK",
+      "Node": "TAUClampBoost",
+      "Duration": 0,
+      "Value": "410"
     }
   ]
 }
